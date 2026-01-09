@@ -143,3 +143,22 @@ section {
   font-weight: bold;
   box-shadow: 0 10px 30px rgba(0,0,0,.3);
 }
+
+@media (max-width: 768px) {
+  .hero {
+    background-attachment: scroll; 
+    background-size: contain;     
+    background-position: top center;
+    height: 90vh;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero p {
+    font-size: 1.1rem;
+  }
+}
+
+
